@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="60px" height="61px" viewBox="0 0 60 61">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 4.93864px;
+  font-family: "Gilroy-ExtraBold";
+  fill: rgb(0,0,0);
+  text-transform: uppercase;
+}
+]]></style>
+<clipPath id="clip0"><circle cx="30.00" cy="31.00" r="30.00"/></clipPath><circle cx="30.00" cy="31.00" r="30.00" fill="none" stroke="rgb(0,0,0)" stroke-width="4.00px" opacity="0.10" clip-path="url(#clip0)"/><text transform="matrix(2.83,0.00,0.00,2.83,31.41,36.46)" opacity="0.20" class="style0"><tspan x="-5.20 -1.70 1.02" fill="rgb(0,0,0)">NEW</tspan></text></svg>
