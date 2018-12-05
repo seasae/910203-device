@@ -13,33 +13,34 @@
 <body class="inner-page">
 
     <header>
-        <h1>Device</h1>
-        <ul class="user-nav">
-            <li>
-                <img src="img/search.svg" alt="Search" title="Поиск по сайту">
-                <input type="text">
-            </li>
-            <li><a class="login-link" href="login.html">Войти</a></li>
-            <li><a>Сравнить</a></li>
-            <li><a>Корзина</a></li>
-        </ul>
-
-
-        <ul class="main-menu">
-            <li><a href="catalog.html">Каталог товаров<img src="img/plus.svg" width="10" height="10" alt="Больше"></a></li>
-            <ul class="submenu">
-                <li><a>Виртуальная реальность</a></li>
-                <li><a>Моноподы под селфи</a></li>
-                <li><a>Экшн-камеры</a></li>
-                <li><a>Фитнес-браслеты</a></li>
-                <li><a>Умные часы</a></li>
-                <li><a>Квадрокоптеры</a></li>
+        <nav class="main-navigation container">
+            <h1><a>Device</a></h1>
+            <ul class="user-nav">
+                <li>
+                    <img src="img/search.svg" alt="Search" title="Поиск по сайту">
+                    <input type="text">
+                </li>
+                <li><a class="login-link" href="login.html">Войти</a></li>
+                <li><a>Сравнить</a></li>
+                <li><a>Корзина</a></li>
             </ul>
-            <li><a>Доставка</a></li>
-            <li><a>Гарантия</a></li>
-            <li><a>Контакты</a></li>
-        </ul>
 
+
+            <ul class="main-menu">
+                <li><a href="catalog.html">Каталог товаров<img src="img/plus.svg" width="10" height="10" alt="Больше"></a></li>
+                <ul class="submenu">
+                    <li><a>Виртуальная реальность</a></li>
+                    <li><a>Моноподы под селфи</a></li>
+                    <li><a>Экшн-камеры</a></li>
+                    <li><a>Фитнес-браслеты</a></li>
+                    <li><a>Умные часы</a></li>
+                    <li><a>Квадрокоптеры</a></li>
+                </ul>
+                <li><a>Доставка</a></li>
+                <li><a>Гарантия</a></li>
+                <li><a>Контакты</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="container">
@@ -62,7 +63,7 @@
                             <label for="filter-black">Черный</label>
                         </li>
                         <li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white" id="filter-white">
+                            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white" id="filter-white" disabled>
                             <label for="filter-white">Белый</label>
                         </li>
                         <li class="filter-option">
@@ -177,7 +178,7 @@
 
     <footer>
         <div class="line-1">
-            <h1>Device</h1>
+            <h1><a>Device</a></h1>
             <ul>
                 <li><a class="login-link" href="login.html"><img src="img/user.svg" width="20" height="20" alt="Пользователь">Войти</a></li>
                 <li><a><img src="img/compare.svg" width="20" height="20" alt="Сравнить">Сравнить</a></li>

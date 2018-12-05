@@ -8,36 +8,37 @@
     <link href="css/catalog.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="main-page">
 
     <header>
-        <h1>Device</h1>
-        <ul class="user-nav">
-            <li>
-                <img src="img/search.svg" alt="Search" title="Поиск по сайту">
-                <input type="text">
-            </li>
-            <li><a class="login-link" href="login.html">Войти</a></li>
-            <li><a>Сравнить</a></li>
-            <li><a>Корзина</a></li>
-        </ul>
-
-
-        <ul class="main-menu">
-            <li><a href="catalog.html">Каталог товаров<img src="img/plus.svg" width="10" height="10" alt="Больше"></a></li>
-            <ul class="submenu">
-                <li><a>Виртуальная реальность</a></li>
-                <li><a>Моноподы под селфи</a></li>
-                <li><a>Экшн-камеры</a></li>
-                <li><a>Фитнес-браслеты</a></li>
-                <li><a>Умные часы</a></li>
-                <li><a>Квадрокоптеры</a></li>
+        <nav class="main-navigation container">
+            <h1><a>Device</a></h1>
+            <ul class="user-nav">
+                <li>
+                    <img src="img/search.svg" alt="Search" title="Поиск по сайту">
+                    <input type="text">
+                </li>
+                <li><a class="login-link" href="login.html">Войти</a></li>
+                <li><a>Сравнить</a></li>
+                <li><a>Корзина</a></li>
             </ul>
-            <li><a>Доставка</a></li>
-            <li><a>Гарантия</a></li>
-            <li><a>Контакты</a></li>
-        </ul>
 
+
+            <ul class="main-menu">
+                <li><a href="catalog.html">Каталог товаров<img src="img/plus.svg" width="10" height="10" alt="Больше"></a></li>
+                <ul class="submenu">
+                    <li><a>Виртуальная реальность</a></li>
+                    <li><a>Моноподы под селфи</a></li>
+                    <li><a>Экшн-камеры</a></li>
+                    <li><a>Фитнес-браслеты</a></li>
+                    <li><a>Умные часы</a></li>
+                    <li><a>Квадрокоптеры</a></li>
+                </ul>
+                <li><a>Доставка</a></li>
+                <li><a>Гарантия</a></li>
+                <li><a>Контакты</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="container">
@@ -51,12 +52,12 @@
                 <img src="img/slider-button-empty.svg" width="10" height="10" alt="Пустой слайдер">
                 <table>
                     <tbody>
-                        <tr>
+                        <tr class="description">
                             <td>8,5 м</td>
                             <td>5 кг</td>
                             <td>Карбон</td>
                         </tr>
-                        <tr>
+                        <tr class="parameters">
                             <td>Длина палки</td>
                             <td>Вес палки</td>
                             <td>Материал</td>
@@ -73,11 +74,11 @@
 
                 <table>
                     <tbody>
-                        <tr>
+                        <tr class="description">
                             <td>48 часов</td>
                         </tr>
                         <tr>
-                            <td>Без подзарядки</td>
+                            <td class="parameters">Без подзарядки</td>
                         </tr>
                     </tbody>
                 </table>
@@ -91,11 +92,11 @@
 
                 <table>
                     <tbody>
-                        <tr>
+                        <tr class="description">
                             <td>800 м</td>
                             <td>50 м</td>
                         </tr>
-                        <tr>
+                        <tr class="parameters">
                             <td>Дальность полета</td>
                             <td>Радиус поражения</td>
                         </tr>
@@ -131,7 +132,7 @@
                 <ul>
                     <li><a class="button">Доставка</a></li>
                     <li><a class="button">Гарантия</a></li>
-                    <li><a class="button">Меню</a></li>
+                    <li><a class="button">Кредит</a></li>
                 </ul>
             </div>
             <div class="delivery">
@@ -186,12 +187,11 @@
 
     <footer>
         <div class="line-1">
-            <h1>Device</h1>
+            <h1><a>Device</a></h1>
             <ul>
                 <li><a class="login-link" href="login.html">Войти</a></li>
                 <li>
-                    <a>
-                        <>Сравнить</a>
+                    <a>Сравнить</a>
                 </li>
                 <li><a>Корзина</a></li>
             </ul>
@@ -226,7 +226,7 @@
         </div>
     </footer>
 
-    <section class="modal modal-login">
+    <section class="modal-login">
         <h2>Личный кабинет</h2>
         <p>Введите свой логин и пароль.</p>
         <form class="login-form" action="https://echo.htmlacademy.ru" method="post">

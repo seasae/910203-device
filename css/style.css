@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('gilroylight.woff') format('woff'),
+    url('Gilroylight.ttf') format('ttf'),
+    url('gilroylight.woff2') format('woff2');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroyextrabold.woff') format('woff'),
+    url('../fonts/Gilroyextrabold.ttf') format('ttf'),
+    url('../fonts/gilroyextrabold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensanslight.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('ttf'),
+    url('../fonts/opensanslight.woff2') format('woff2');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('ttf'),
+    url('../fonts/opensans.woff2') format('woff2');
+    font-weight: regular;
+    font-style: normal;
+}
+
+.inner-page {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+/* Главная*/
+
+header {
+    margin-top: 40px;
+    display: flex;
+    background-color: #f1c52e;
+}
+
+header h1 {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+header h1 a:hover {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+
+header h1 a:focus {
+    color: #cacaca;
+    text-decoration: none;
+    align-items: center;
+    background-color: transparent;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-page .main-navigation {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.user-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-nav li {
+    font-family: OpenSans;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-menu li {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.main-menu li a:hover,
+.user-nav li a:hover,
+.user-nav input a:hover,
+.main-menu .submenu li a:hover,
+.categories li a:hover {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+
+.main-menu li a:focus,
+.user-nav li a:focus,
+.user-nav inputa:focus,
+.main-menu .submenu li a:focus,
+.categories li a:focus {
+    color: #cacaca;
+    text-decoration: none;
+}
+
+.button {
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #f1c52e;
+    border: none;
+}
+
+.button a:focus {
+    color: #cacaca;
+    text-decoration: none;
+    background-color: #f1c52e;
+}
+
+.main-menu .submenu {
+    font-family: OpenSans;
+    color: #000000;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.slider h2 {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 46.99px;
+    font-weight: 700;
+    line-height: 19.997px;
+    text-align: left;
+}
+
+.slider p {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.slider .button {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14.358px;
+    text-align: center;
+}
+
+.slider . description {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: left;
+}
+
+.slider .parameters {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+
+.categories li {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    list-style: none;
+}
+
+.customer-info .menu p {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.info h2 {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 46.99px;
+    font-weight: 700;
+    line-height: 21.288px;
+    text-align: left;
+}
+
+.info p {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.info-about-us li {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    list-style: none;
+}
+
+footer h1 {
+    font-family: Gilroy;
+    color: #ffc600;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.line-1 li {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+    list-style: none;
+}
+
+.line-2 p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.line-2 .menu li {
+    font-family: Gilroy;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    list-style: none;
+}
+
+
+/* Шрифты страницы каталога*/
+
+.container .page-title {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 46.99px;
+    font-weight: 700;
+    line-height: 17.14px;
+    text-align: left;
+}
+
+.breadcrumbs {
+    font-family: OpenSans;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.breadcrumbs a:hover {
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.breadcrumbs a:focus {
+    color: #f2f2f2;
+    text-decoration: none;
+
+}
+
+.filters h2 {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 15.98px;
+    font-weight: 700;
+    line-height: 6.847px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.filter-option label,
+ledend label {
+    font-family: OpenSans;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+}
+
+legend {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.catalog-item .button {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.catalog-item-price {
+    font-family: Gilroy;
+    color: #464646;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: right;
+}
+
+.pagination-list {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 15.98px;
+    font-weight: 700;
+    line-height: 6.847px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+    color: #663d15;
+}
+
+.filter-input:disabled + label {
+    color: #000000;
+    opacity: 0.5;
+}
